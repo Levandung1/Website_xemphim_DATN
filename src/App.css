@@ -1,0 +1,24 @@
+/* App.css — SAFE VERSION CHUẨN CHO TAILWIND V4 */
+/* Không override #root, không giới hạn width, không canh giữa layout */
+
+/* Reset cơ bản */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body mặc định */
+body {
+  background-color: #000; /* Netflix style */
+  color: white;
+  font-family: sans-serif;
+}
+
+/* (Tuỳ chọn) Ẩn thanh cuộn trên các trình duyệt */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* Bạn có thể thêm CSS custom ở đây nếu muốn */
