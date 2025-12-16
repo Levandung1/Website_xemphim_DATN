@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cấu trúc tổng thể */
+body {
+  background: url('/path-to-your-background-image.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  backdrop-filter: blur(5px);
+}
+
+/* Form đăng nhập */
+.login-container {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 40px;
+  border-radius: 8px;
+  width: 400px;
+  text-align: center;
+}
+
+.login-container h1 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background: #333;
+  border: 1px solid #555;
+  border-radius: 5px;
+  color: white;
+}
+
+/* Nút đăng nhập */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: red;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-btn:hover {
+  background: darkred;
+}
+
+/* Các phần khác */
+.additional-options {
+  color: white;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.additional-options a {
+  color: white;
+  text-decoration: underline;
+}
